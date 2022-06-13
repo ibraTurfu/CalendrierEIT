@@ -1,15 +1,25 @@
-body{
+.emplois_du_temps{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(14, 1fr);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+#emploi2{
+    display: none;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(14, 1fr);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100%;
+    width: 100%;
 }
 h1{
     font-size: 2em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h2{
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
@@ -34,7 +44,7 @@ h2{
     border: 1px solid #019CDE;
     display: table;
     background-color: white;
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: bold;
 }
 #d8{
@@ -87,7 +97,7 @@ h2{
         font-size: 1em;
     }
     .heure{
-        font-size: 0.7em;
+        font-size: 0.6em;
     }
 }
 
